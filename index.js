@@ -170,7 +170,6 @@ Use the filterByWord function below to do the following:
 
 function filterByWord(flavorsArr, queryTerm){
     let filteredArr = []
-    let index = 0;
     for (let flavor of flavorsArr) {
         if (flavor.includes(queryTerm)) {
             filteredArr.push(flavor);
